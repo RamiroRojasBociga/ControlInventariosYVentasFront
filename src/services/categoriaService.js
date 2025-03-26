@@ -76,7 +76,7 @@ const categoriaService = {
         }
     },
 
-    // Elimina una categoría por su ID
+    // Elimina una categoría por su ID metodo nuevo
     eliminar: async (id) => {
         try {
             const response = await fetch(`${API_URL}/${id}`, {
